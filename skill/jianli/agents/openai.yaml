@@ -1,0 +1,4 @@
+interface:
+  display_name: "简历证据库"
+  short_description: "先核事实再优化简历，生成母版、JD 定制版与面试证据卡"
+  default_prompt: "使用 $jianli 审查我的简历证据，并针对目标 JD 生成真实、可追问的定制版本。"
