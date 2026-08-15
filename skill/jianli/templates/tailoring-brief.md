@@ -51,6 +51,14 @@
 
 -
 
+## Independent project destinations
+
+| Project ID | Destination | Remains identifiable? | Reason |
+|---|---|---|---|
+| | Independent / Grouped / Omitted internally | Yes / No | |
+
+- [ ] No project disappeared because similar items were merged.
+
 ## JD terms to mirror truthfully
 
 -

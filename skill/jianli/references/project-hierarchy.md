@@ -1,4 +1,4 @@
-# Project Hierarchy
+# Project Hierarchy and Preservation
 
 Enterprise resumes often fail because organizational ownership is unclear.
 
@@ -64,6 +64,34 @@ It avoids repeating:
 three times in a row.
 
 It also communicates that the candidate had **depth within a major platform**, not three unrelated mini-projects.
+
+## Grouping is not deletion
+
+压缩表达不等于删除证据。合并同类项时，不允许让独立项目静默消失。
+
+Each independent project keeps a stable ID, project name or identifiable problem scope, candidate contribution, evidence attribution, ownership, maturity, and interview story.
+
+Grouping under a platform is allowed when every child project remains identifiable:
+
+```text
+某大型业务平台｜产品经理
+
+- 子项目 A：负责……
+- 子项目 B：负责……
+- 子项目 C：主导……
+```
+
+Do not compress this into “负责多个相关项目” when that hides project identities, contribution differences, or evidence.
+
+## Project destinations
+
+Every master project must be:
+
+1. shown independently;
+2. grouped but still identifiable; or
+3. intentionally omitted with a reason in the internal tailoring delta.
+
+Never combine actions, metrics, or outcomes from separate projects into a synthetic project claim. Similar problem structure does not make two projects the same project.
 
 ## Do not repeat role labels unnecessarily
 

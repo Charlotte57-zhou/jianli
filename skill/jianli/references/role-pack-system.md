@@ -31,6 +31,11 @@ A pack must not:
 - force unsupported keywords;
 - force every candidate into the same layout;
 - claim market universality without actual JD research.
+- expose internal audit fields in recruiter-facing output;
+- let a Renderer alter wording or facts;
+- remove an independent project without a recorded tailoring decision.
+
+Role Packs map proven evidence into [Recruiter Translation](recruiter-translation.md). Content architecture is then selected through [Resume Architecture Selector](resume-architecture-selector.md). Renderer choice happens last.
 
 ## Load order
 

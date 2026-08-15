@@ -21,6 +21,14 @@ Use a two-layer system:
 
 The master is the source of truth. Tailored resumes are views over that source.
 
+## Independent project preservation
+
+Every independent project receives a stable project ID in the Career Evidence Base. Compression may change display density, not source coverage.
+
+A tailored resume may show a project independently, group it under a shared platform while preserving its name and contribution, or omit it for this JD with a reason recorded in the internal tailoring delta.
+
+It may not silently lose a project because similar items were merged, or combine actions, metrics, and outcomes from separate projects into a synthetic claim.
+
 ## Why a single universal resume underperforms
 
 Hiring is usually a fast similarity judgment:
@@ -125,5 +133,6 @@ For each target JD, produce:
 3. JD evidence matrix.
 4. Interview evidence cards for the top 3–5 claims.
 5. Claim Defensibility Matrix for high-visibility claims.
+6. Project coverage reconciliation: every master project is displayed, grouped but identifiable, or intentionally omitted with a recorded reason.
 
 The delta note is internal and should not be sent to recruiters.

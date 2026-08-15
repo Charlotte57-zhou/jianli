@@ -1,10 +1,10 @@
 # AI Product Manager — Writing Guide
 
-## Evidence-first sequence
+## Recruiter-first, evidence-controlled sequence
 
 Write in this order:
 
-> User/business problem → Product judgment → Why use or not use AI → Personal decision → Rule/Workflow/Agent/Human boundary → Artifact → Validation maturity → Limitation
+> User/business problem → Why AI → What does not use AI → AI boundary → Product mechanism → Human control → Validation → Evidence → Technical proof
 
 ## Two-layer communication
 
@@ -16,13 +16,17 @@ Answer who has the problem, why it matters, what the product changes, what the c
 
 Add only supported mechanisms such as Agent, tools, MCP, state, permissions, structured outputs, Eval, Bad Cases, and failure handling.
 
+Do not begin a project bullet by stacking Agent, MCP, Harness, Tool Calling, and Eval. These terms should explain a product decision after the problem and boundary are clear.
+
 ## Claim pattern
 
 ```text
 For [user/problem], the candidate [owned action/decision] to build [artifact/mechanism],
 separating [Rule/Workflow/Agent/Human boundary],
-validated at [actual maturity stage], with [known limitation].
+validated at [actual maturity stage], with [supported evidence].
 ```
+
+Known limitations remain in the internal audit unless normal hiring language is needed to describe an actual stage. Write “完成可运行 Demo 与离线评测”, not an audit label such as “不是生产”.
 
 ## AI-assisted project wording
 

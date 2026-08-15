@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>简历｜高密度技术版</title>
+  <style>
+    :root {
+      --ink: #111827;
+      --muted: #526071;
+      --accent: #1558b0;
+      --accent-dark: #0d3f82;
+      --soft: #eef5ff;
+      --line: #cad7e7;
+    }
+    * { box-sizing: border-box; }
+    html { background: #dfe6ef; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      font-size: 9.8pt;
+      line-height: 1.42;
+    }
+    .editor-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px;
+      background: #0f1d32;
+    }
+    .editor-toolbar button {
+      padding: 6px 11px;
+      border: 1px solid #6e88aa;
+      border-radius: 5px;
+      color: white;
+      background: #17365f;
+      cursor: pointer;
+    }
+    .resume {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 16px auto;
+      padding: 11mm 13mm 13mm;
+      background: white;
+      box-shadow: 0 8px 30px rgba(15,29,50,.16);
+      outline: none;
+    }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: start;
+      gap: 12px;
+      padding: 0 0 8px 12px;
+      border-left: 6px solid var(--accent);
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { margin: 0; font-size: 21pt; line-height: 1.05; }
+    .target { margin-top: 4px; color: var(--accent); font-size: 11pt; font-weight: 800; }
+    .contact { max-width: 88mm; color: var(--muted); text-align: right; overflow-wrap: anywhere; }
+    .profile { margin-top: 8px; padding: 7px 9px; background: var(--soft); border: 1px solid #d6e6fb; }
+    section { margin-top: 10px; }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 5px;
+      color: var(--accent-dark);
+      font-size: 12.5pt;
+      line-height: 1.2;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+    h2::after { content: ""; height: 1px; flex: 1; background: var(--line); }
+    article { margin: 6px 0 8px; padding-left: 9px; border-left: 2px solid #d4e2f4; break-inside: avoid; page-break-inside: avoid; }
+    .entry-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; font-weight: 800; }
+    .entry-meta { color: var(--muted); font-weight: 400; white-space: nowrap; }
+    .context { margin: 2px 0; color: var(--muted); }
+    ul { margin: 3px 0 0; padding-left: 1.2em; }
+    li { margin: 2px 0; padding-left: .15em; }
+    .proof { margin-top: 4px; color: #25364c; }
+    .skill-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 16px; }
+    .skill-row { border-bottom: 1px dotted var(--line); padding-bottom: 3px; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    [contenteditable="true"]:focus { outline: 2px dashed #7ca8df; outline-offset: 3px; }
+    @page { size: A4; margin: 10mm 12mm 12mm; }
+    @media print {
+      html, body { background: white; }
+      body { font-size: 9.8pt; }
+      .editor-toolbar { display: none !important; }
+      .resume { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="editor-toolbar" aria-label="编辑工具栏">
+    <button type="button" onclick="window.print()">打印 / 导出 PDF</button>
+    <button type="button" onclick="clearSavedDraft()">清除本地草稿</button>
+  </div>
+  <main id="resume" class="resume" contenteditable="true" spellcheck="false">
+    <header>
+      <div data-resume-field="candidate_identity">
+        <h1>候选人姓名</h1>
+        <div class="target" data-resume-field="target_role_language">AIPM｜目标问题结构与差异化定位</div>
+      </div>
+      <div class="contact" data-resume-field="contact">所在城市｜电话｜邮箱｜GitHub｜作品集</div>
+    </header>
+
+    <div class="profile" data-resume-field="recruiter_readable_claim">先说明解决过什么问题、个人负责什么、如何验证；Agent、MCP、Eval 等技术机制放在第二层证明。</div>
+
+    <section>
+      <h2>核心项目</h2>
+      <article>
+        <div class="entry-head"><span data-resume-field="project_context">项目名称｜业务或用户问题</span><span class="entry-meta">时间范围</span></div>
+        <div class="context" data-resume-field="scale">项目范围、用户或复杂度背景。</div>
+        <ul>
+          <li data-resume-field="candidate_action">个人负责的产品判断、方案设计或推进动作。</li>
+          <li data-resume-field="observable_behavior">如何划分 Rule、Workflow、Agent 与 Human，如何处理失败和证据不足。</li>
+          <li data-resume-field="value">产品机制解决了什么问题，哪些环节明确不使用 AI。</li>
+          <li class="proof" data-resume-field="evidence">验证：Demo、测试、离线 Eval、用户反馈、试点或生产证据。</li>
+        </ul>
+      </article>
+      <article>
+        <div class="entry-head"><span data-resume-field="project_context">另一独立项目名称</span><span class="entry-meta">时间范围</span></div>
+        <ul>
+          <li data-resume-field="recruiter_readable_claim">保持独立项目身份，说明问题、个人动作、机制与证据。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>工作经历</h2>
+      <article>
+        <div class="entry-head"><span data-resume-field="candidate_action">公司｜岗位</span><span class="entry-meta">时间范围</span></div>
+        <div class="context" data-resume-field="project_context">业务平台或团队背景。</div>
+        <ul>
+          <li data-resume-field="recruiter_readable_claim">用招聘方可读语言说明职责、动作、价值和证据。</li>
+          <li data-resume-field="evidence">补充规模、交付、测试或结果证据。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>能力与技术证明</h2>
+      <div class="skill-grid" data-resume-field="skills">
+        <div class="skill-row"><strong>产品：</strong>问题定义、流程与状态、验收</div>
+        <div class="skill-row"><strong>AI：</strong>Agent 边界、Eval、Bad Case</div>
+        <div class="skill-row"><strong>构建：</strong>AI Coding、Demo、测试</div>
+        <div class="skill-row"><strong>工具：</strong>按真实证据填写</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>教育与链接</h2>
+      <div data-resume-field="education"><strong>学校｜学历｜专业</strong>　时间范围</div>
+      <div data-resume-field="links">公开作品、仓库或产品链接</div>
+    </section>
+  </main>
+  <script>
+    const resume = document.getElementById('resume');
+    const storageKey = `jianli-technical-${location.pathname}`;
+    const saved = localStorage.getItem(storageKey);
+    if (saved) resume.innerHTML = saved;
+    resume.addEventListener('input', () => localStorage.setItem(storageKey, resume.innerHTML));
+    function clearSavedDraft() {
+      localStorage.removeItem(storageKey);
+      location.reload();
+    }
+  </script>
+</body>
+</html>

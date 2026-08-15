@@ -73,3 +73,31 @@
 - [ ] Every visible link improves the intended evaluation dimension.
 - [ ] Tailoring changed selection/order/emphasis, not history.
 - [ ] Recruiter-facing filename is clean and internal notes stay internal.
+
+## Recruiter translation and external isolation
+
+- [ ] Internal truth controls wording, but internal audit language does not appear in the resume.
+- [ ] Renderer received only recruiter-facing fields.
+- [ ] Project overview and candidate contribution are distinguishable without audit-report labels.
+- [ ] Capability labels are followed by observable behavior and evidence.
+- [ ] HR can understand the problem and value before role-specific jargon appears.
+- [ ] Hiring managers have concrete follow-up paths and the candidate can answer them.
+- [ ] The formal resume passed [external output sanitization](external-output-sanitization.md).
+
+## Independent project preservation
+
+压缩表达时必须保全每个独立项目，不得因合并同类项而静默丢失。
+
+- [ ] Every Master Resume project has a stable project ID and a destination.
+- [ ] Grouped projects remain individually identifiable.
+- [ ] Intentionally omitted projects are recorded in the internal tailoring delta.
+- [ ] No independent project disappeared because similar items were merged.
+- [ ] No action, metric, or result was stitched across separate projects.
+
+## Resume architecture and rendering
+
+- [ ] Content architecture was selected before Renderer Pack.
+- [ ] Renderer did not change facts, positioning, wording strength, or project selection.
+- [ ] Default output has no empty photo area.
+- [ ] Content overflow uses a natural second page instead of unreadably small text.
+- [ ] HTML and PDF passed [rendering QA](rendering-qa.md).

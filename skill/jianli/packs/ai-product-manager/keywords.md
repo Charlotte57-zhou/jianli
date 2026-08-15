@@ -20,3 +20,14 @@ This is not a keyword-stuffing list. Use a term only when the candidate can expl
 | Business Outcome | measured attributable result | baseline, denominator, period and attribution | strongest maturity gate |
 
 Showing where AI is **not** used is often a stronger product signal than adding another AI keyword.
+
+## Placement order
+
+1. problem and consequence;
+2. product decision and why AI;
+3. deterministic versus uncertain boundary;
+4. human control and failure handling;
+5. validation and evidence;
+6. supported technical terms.
+
+Keywords improve retrieval only after the recruiter can understand what the candidate solved.

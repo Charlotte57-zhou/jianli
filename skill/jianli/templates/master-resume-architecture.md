@@ -15,6 +15,7 @@ The Master Resume is an evidence inventory, not necessarily a sendable 1–2 pag
 
 For each entry preserve:
 
+- stable project ID;
 - Employer / Client / Platform / Module / Contribution;
 - concrete problem and user;
 - candidate action and decision;
@@ -25,6 +26,8 @@ For each entry preserve:
 - Validation Maturity;
 - safe wording and boundary;
 - strongest interview story.
+
+Independent projects remain separate source records even when a tailored resume groups them under one platform heading.
 
 ## Capability Library
 
@@ -45,3 +48,11 @@ Maintain [capability-library.md](capability-library.md).
 ## Bullet library
 
 Keep business, product, technical and delivery formulations of the same fact. Every version must remain within the same ownership and maturity boundary.
+
+## Project coverage ledger
+
+| Project ID | Independent project | Platform / group | Key contribution | Evidence | Tailored destination |
+|---|---|---|---|---|---|
+| | | | | | Independent / Grouped-identifiable / Internally omitted |
+
+Never merge source records merely because the final display is compressed.

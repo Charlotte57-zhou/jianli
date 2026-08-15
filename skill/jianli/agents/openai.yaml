@@ -1,4 +1,4 @@
 interface:
   display_name: "简历证据库"
-  short_description: "通过深访审计能力所有权与证据，生成可防守的岗位定制简历"
-  default_prompt: "使用 $jianli 深访我的稳定行为，审计能力所有权与证据，再生成可防守的目标岗位简历。"
+  short_description: "核验职业证据，生成招聘方看得懂、面试可防守的定制简历"
+  default_prompt: "使用 $jianli 核验我的经历与能力，匹配目标岗位，生成招聘方看得懂、面试可防守的简历；内部审计语言不要进入正式简历，压缩时保留每个独立项目。"

@@ -1,55 +1,91 @@
-# Jianli v2.1.0 · Evidence and Capability Ownership for Resumes
+# Jianli v3.1.0
 
-> **Verify facts. Establish ownership. Then write.**
+> Turn verified career evidence into recruiter-readable, job-specific, interview-defensible resumes.
 
-`jianli` is an open-source Agent Skill for turning concrete career episodes into defensible positioning, tailored resumes, and interview evidence.
+Jianli is an open-source Skill built for Chinese job seekers. It combines three systems:
 
-```text
-Concrete episodes
-→ Deep interview and stable behavior patterns
-→ Work-ready capability primitives
-→ Evidence
-→ Capability Ownership Level
-→ Transferable problem structure
-→ Target JD / Role Pack
-→ Defensible resume claim
-→ Interview evidence validation
-```
+1. **Career Evidence Engine** — verifies facts, contribution, capability ownership, validation maturity, and claim defensibility;
+2. **Recruiter Translation Engine** — converts verified evidence into clear project context, candidate action, observable behavior, value, and evidence;
+3. **Resume Renderer** — delivers editable HTML, A4 print layouts, natural pagination, and PDF-ready output.
 
-## New in v2.1.0
-
-- Deep Interview & Capability Discovery mode;
-- L0–L5 Capability Ownership Ladder;
-- AI-assisted project audit: Explain → Modify → Debug → Reproduce → Validate;
-- Claim Defensibility Matrix;
-- cross-industry Capability Primitive Library;
-- Career Positioning Audit before the Master Resume;
-- eight-stage Validation Maturity model;
-- upgraded AI Product Manager Role Pack.
-
-## Core boundaries
+## Core principles
 
 - Strengthen positioning. Never strengthen facts.
-- One evidence base, many truthful tailored resumes.
-- Direct similarity before adjacent similarity and transferable capability.
+- One career evidence base, many truthful tailored resumes.
+- Direct similarity > adjacent similarity > transferable capability > generic traits.
 - Separate Employer / Client / Platform / Module / Contribution.
 - Separate Public / Internal / Estimated data.
-- Role Packs cannot raise evidence, ownership, or validation maturity.
+- Role Packs cannot override the Evidence Core.
+- Internal truth controls wording, but internal audit language never leaks into the resume.
+- Compression must never silently delete an independent project.
 
-AI-generated output does not automatically prove independent engineering. A Demo does not prove production value, and Offline Eval does not prove real-user validation.
+## v3.1.0 architecture
+
+```text
+Deep Interview
+→ Fact / Evidence Audit
+→ Capability Ownership
+→ Career Evidence Base
+→ Positioning and JD Matching
+→ Claim Selection
+→ Recruiter Translation
+→ Resume Architecture
+→ Renderer Pack
+→ Print / PDF QA
+→ Interview Evidence
+```
+
+## Internal versus external output
+
+Internal fields such as evidence class, ownership level, personal boundary, missing evidence, maturity, and interview risk control claim strength. They are not rendered as recruiter-facing labels.
+
+For example, an internal record may say that a candidate did not own the full lifecycle and lacks production validation. The resume should naturally state the exact owned scope and verified Demo or Offline Eval stage instead of exposing audit-report language.
+
+## Independent project preservation
+
+Every independent project keeps a stable source record. A tailored resume may:
+
+- show it independently;
+- group it under a platform while preserving its identity and contribution;
+- omit it for a target JD with an internal recorded reason.
+
+It may not merge separate actions, metrics, or outcomes into a synthetic project.
+
+## Renderer Packs
+
+- `clean-professional` — product, operations, business, and general Chinese applications;
+- `high-density-technical` — AIPM, AI, Agent, engineering, and technical product roles.
+
+Both are original, editable HTML templates with A4 print CSS, natural multi-page output, hidden print toolbars, and no default photo area.
 
 ## Install
 
-Copy `skill/jianli/` to your Agent Skills directory and keep the folder name `jianli`. In Codex, invoke it with `$jianli`.
+Download or clone the repository, then copy:
 
-Run repository validation with:
-
-```bash
-python scripts/check_skill.py
+```text
+skill/jianli
 ```
 
-See [README.md](README.md) for the full Chinese guide.
+to:
 
-## License
+```text
+Windows: %USERPROFILE%\.codex\skills\jianli
+macOS/Linux: ~/.codex/skills/jianli
+```
 
-[MIT](LICENSE)
+Invoke it with `$jianli`.
+
+## Repository layout
+
+```text
+skill/jianli/
+├── SKILL.md
+├── references/
+├── templates/
+├── packs/
+├── renderers/
+├── checklists/
+└── examples/
+```
+
+The project is licensed under the [MIT License](LICENSE).

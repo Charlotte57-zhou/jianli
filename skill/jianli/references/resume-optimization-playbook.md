@@ -25,6 +25,8 @@ Put the strongest evidence where recruiters actually see it.
 
 Turn internal jargon into market-readable language.
 
+Translation is one-way: internal truth controls wording, but internal audit language never appears in the recruiter-facing resume.
+
 ### 4. Evidence
 
 Use metrics, project scope, artifacts, tests, and delivery facts.
@@ -32,6 +34,8 @@ Use metrics, project scope, artifacts, tests, and delivery facts.
 ### 5. Restraint
 
 Do not overclaim.
+
+Compression also cannot erase history. Grouping similar projects must preserve every independent project in the master and keep it identifiable or explicitly recorded as omitted in the internal tailoring delta.
 
 ## Advice triage
 

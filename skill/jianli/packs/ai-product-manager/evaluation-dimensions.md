@@ -53,3 +53,9 @@ Weak substitute: a list of AI coding tools.
 Evidence: direct similarity first, then adjacent problem structure and proven capability primitives, with new-domain gaps stated.
 
 Weak substitute: generic learning or communication ability.
+
+## 10. Recruiter translation and comprehension
+
+Evidence: the first layer states the problem, product decision, AI boundary, human control and validation in language HR can understand; technical terms provide a second layer that hiring managers can inspect.
+
+Weak substitute: a dense list of Agent, MCP, Harness, Tool Calling, RAG and Eval terms without user value, personal action or validation.

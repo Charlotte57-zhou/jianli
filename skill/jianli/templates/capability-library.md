@@ -1,6 +1,6 @@
 # Capability Library
 
-| Capability primitive | Plain-language definition | Observable behavior | Strongest evidence | Supporting episode | Ownership level | Validation maturity | Proven domains | Transferable problem structures | Role Pack mapping | Boundary | Interview story |
+| Capability primitive | Plain-language definition | Observable behavior | Strongest evidence | Supporting project ID / episode | Ownership level | Validation maturity | Proven domains | Transferable problem structures | Role Pack mapping | Boundary | Interview story |
 |---|---|---|---|---|---:|---|---|---|---|---|---|
 | | | | | | L0–L5 | | | | | | |
 

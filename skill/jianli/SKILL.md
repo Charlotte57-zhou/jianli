@@ -1,90 +1,114 @@
 ---
 name: jianli
-description: 当用户要深度探索职业优势、识别稳定行为模式、审计 AI 辅助项目能力所有权，或审查、重写、优化、定制简历/CV、匹配公司/岗位/JD 时使用。先把自然倾向转成可观察行为与有证据的职业能力，再核验事实、所有权和验证成熟度，建立职业证据库与母版，生成可防守的岗位定制简历和面试证据卡。适用于“我不知道自己的优势”“经历很杂”“哪些 AI 项目真正算我的能力”等问题。
+description: 面向中文求职者的职业证据与简历交付 Skill。当用户要探索职业优势、审计 AI 辅助项目、梳理复杂经历、匹配岗位/JD、生成或修改简历，以及制作可编辑 HTML/PDF 简历时使用。先核验事实、能力所有权和项目阶段，再完成职业定位、招聘表达、信息架构、渲染与面试证据；保证内部审计语言不泄漏，压缩时不丢失独立项目。
 ---
 
 # 简历证据库
 
-先核事实，再定能力，最后写简历。
+将经过核验的职业证据，转化为招聘方看得懂、岗位匹配、面试可防守的定制简历。
 
 ```text
 具体经历
 → 深访发现的稳定行为
-→ 可观察职业能力
-→ 证据
-→ 能力所有权级别
-→ 可迁移问题结构
-→ 目标 JD / Role Pack
-→ 可防守简历表述
+→ 事实 / 证据 / 能力所有权审计
+→ Career Evidence Base
+→ 职业定位与 JD 匹配
+→ Claim 选择
+→ Recruiter Translation
+→ Resume Architecture
+→ Renderer Pack
+→ Print / PDF QA
 → 面试追问证据
 ```
 
-## 不可覆盖的核心契约
+## 不可覆盖的最高原则
 
 1. **Strengthen positioning. Never strengthen facts.**
 2. **One career evidence base, many truthful tailored resumes.**
 3. **Direct similarity > adjacent similarity > transferable capability > generic traits.**
-4. 严格分层 `Employer / Client / Platform / Module / Contribution`。
-5. 严格区分 `Public / Internal / Estimated` 数据与可归属结果。
-6. 保持 `Core + Role Packs`：Core 拥有事实、能力所有权和防守性契约，Role Pack 只补岗位解释。
+4. `Employer / Client / Platform / Module / Contribution` 必须分层。
+5. `Public / Internal / Estimated` 数据及个人可归属结果必须分开。
+6. `Core + Role Packs` 保持不变；Role Pack 不能提升事实、所有权或验证阶段。
+7. **Internal truth controls wording, but internal audit language never leaks into the resume.**
+8. **压缩表达不等于删除证据。合并同类项时，独立项目不得静默消失。**
 
-## 选择模式
+## 四层架构
 
-### A. Deep Interview & Capability Discovery
+### 1. Evidence Core
 
-当用户不知道优势、经历杂乱、想探索天赋，或不确定 AI 项目是否算个人能力时，先进入深访，不直接写简历。
+负责事实等级、项目层级、个人贡献、能力所有权、验证成熟度、职业证据库和 Claim Defensibility。
 
-必须分开：
+### 2. Role Intelligence
 
-1. **Natural Tendencies** — 内部定位假设，不直接写进 bullet；
-2. **Work-ready Capabilities** — 有项目行为、证据和所有权支持；
-3. **Capability Gaps / Claim Boundaries** — 当前证据不足或不能包装的能力。
+负责定位、JD 匹配、Role Packs 和可迁移问题结构。岗位意愿是输入，证据决定当前可防守定位。
 
-读取 [深访方法](references/deep-interview-to-resume.md) 和 [深访模板](templates/deep-interview.md)。一次问一个核心问题，先要具体事件，再接受特质标签。
+### 3. Recruiter Translation
 
-### B. Career Evidence Base / Master Resume
+负责将内部判断转换为项目背景、个人动作、可观察行为、价值、结果证据和招聘方可读表述。读取 [招聘表达规则](references/recruiter-translation.md) 与 [招聘表达卡](templates/recruiter-translation-card.md)。
 
-用于重建职业事实源或支持连续投递。先完成定位审计，再生成母版。母版保存所有可防守证据，不等于直接投递版本。
+### 4. Resume Rendering
 
-### C. JD Tailoring
+负责内容架构、HTML、A4、分页、视觉层级、编辑和打印。Renderer 不能决定项目取舍、修改事实或加强措辞。读取 [信息结构选择器](references/resume-architecture-selector.md) 和 [Renderer Packs](renderers/README.md)。
 
-用于已有公司、岗位或 JD。只从证据库中选择、排序和翻译，不为匹配关键词补写能力。
+## 模式选择
 
-### D. Feedback Review
+### A. 深度访谈与能力发现
 
-逐条判断第三方建议：`采纳 / 修改后采纳 / 不采纳 / 需要更多证据`，并说明筛选价值、真实性、岗位匹配和面试风险。
+用户不知道优势、经历杂乱、想探索天赋，或不确定 AI 项目是否算个人能力时，先深访，不直接写简历。
 
-### E. Role Pack
+分开：
 
-完成 Core 审计后再加载岗位包。当前内置 [AI 产品经理岗位包](packs/ai-product-manager/PACK.md)。岗位包不得提升 Evidence Class、Ownership Level 或 Validation Maturity。
+1. **Natural Tendencies**：内部定位线索；
+2. **Work-ready Capabilities**：有可观察行为、项目证据和所有权支持；
+3. **Capability Gaps / Claim Boundaries**：当前证据不足的能力。
+
+读取 [深访方法](references/deep-interview-to-resume.md)、[深访模板](templates/deep-interview.md) 和 [能力原语](references/capability-primitives.md)。一次问一个核心问题，至少两个独立事件支持后才视为稳定行为。
+
+### B. 职业证据库与母版
+
+用于重建事实源和支持连续投递。先定位审计，再建立母版。母版保存全部独立项目和可防守证据，不等于投递版。
+
+### C. JD 定制
+
+只从证据库选择、排序和翻译，不为匹配关键词补写事实。每次生成内部 [定制差异记录](templates/tailoring-delta.md)。
+
+### D. 简历文件交付
+
+当用户需要 HTML、A4 或 PDF 时，先完成内容架构，再复制合适的 Renderer。内容多时优先两页，不用极小字号或删除项目强塞一页。
+
+### E. 反馈审查
+
+逐条判断 `采纳 / 修改后采纳 / 不采纳 / 需要更多证据`，说明筛选价值、真实性、岗位匹配和面试风险。
+
+### F. Role Pack
+
+完成 Core 审计后加载岗位包。当前内置 [AIPM 岗位包](packs/ai-product-manager/PACK.md)。
 
 ## 执行流程
 
-### 1. 明确目标并保留源文件
+### 1. 明确目标与材料
 
-确认目标岗位、职级、公司/行业、地区、语言、页数、文件格式及已有证据。保留原文件；缺失项标记“待确认”，先处理已知部分。必要时使用 [信息采集模板](templates/intake.md)。
+确认目标岗位、职级、行业、地区、语言、页数、文件格式、已有简历和证据。保留源文件；缺失项标记待确认，先处理已知部分。使用 [信息采集模板](templates/intake.md)。
 
-### 2. 需要时先做深度访谈
+### 2. 必要时先深访
 
-从具体事件采集触发、约束、可观察动作、个人决策、他人/AI 贡献、结果、失败和反例。至少两个独立事件支持后，才把行为视为稳定模式。
-
-执行转换：
+从具体事件采集触发、约束、动作、决策、他人/AI 贡献、结果、失败和反例：
 
 ```text
 自然倾向 → 可观察行为 → 能力原语 → 项目证据 → 所有权 → 成熟度
 ```
 
-不要把“好奇心、学习能力、责任心、沟通能力”直接变成高价值 bullet。读取 [能力原语库](references/capability-primitives.md)。
+不要把好奇心、学习能力、责任心或沟通能力直接写成高价值要点。
 
 ### 3. 建立 Fact Matrix
 
-将重要事实分类为 `Verified / User-confirmed / External/Public / Estimated / Inferred / Unknown`，并核对动作归属、数字口径、0→1 边界、系统范围、上线状态和职称。
+将重要事实分类为 `Verified / User-confirmed / External/Public / Estimated / Inferred / Unknown`，核对动作归属、数字口径、0→1、系统范围、上线状态和职称。填写 [Fact Matrix](templates/fact-matrix.md)，规则见 [事实与证据](references/fact-integrity-and-evidence.md)。
 
-把 AI/他人贡献、能力所有权和验证成熟度写入 [Fact Matrix](templates/fact-matrix.md)。详细规则见 [事实与证据](references/fact-integrity-and-evidence.md)。
+每个独立项目分配稳定项目 ID。不得因为问题相似而合并源记录。
 
 ### 4. 审计能力所有权
 
-对每个高强度 claim 记录最高可证明级别：
+对高强度 claim 记录最高可证明级别：
 
 - `L0 Exposure`
 - `L1 AI-assisted Output`
@@ -93,7 +117,7 @@ description: 当用户要深度探索职业优势、识别稳定行为模式、�
 - `L4 Reproduce / Validate`
 - `L5 Real-world Validated`
 
-项目成熟度与个人所有权是两个维度。生产项目中的旁观经历不等于 L5；L4 能力也不等于生产结果。读取 [能力所有权规则](references/capability-ownership.md)，填写 [所有权矩阵](templates/capability-ownership-matrix.md)。
+项目成熟度和个人所有权是两个维度。读取 [能力所有权](references/capability-ownership.md)，填写 [所有权矩阵](templates/capability-ownership-matrix.md)。
 
 ### 5. 审计 AI 辅助项目
 
@@ -103,17 +127,13 @@ description: 当用户要深度探索职业优势、识别稳定行为模式、�
 Explain → Modify → Debug → Reproduce → Validate
 ```
 
-AI 生成结果不自动成为候选人能力资产。检查设计理由、替代方案、数据流、Agent 必要性、Rule/Workflow/Agent/Human 边界、成功指标、失败处理、核心调用链和 Bad Cases。
-
-解释权不足时明确输出：
+检查设计理由、替代方案、数据流、Agent 必要性、Rule/Workflow/Agent/Human 边界、成功指标、失败处理、调用链和 Bad Cases。解释权不足时输出：
 
 > 先补项目解释权，不要继续强化简历 claim。
 
 读取 [AI 辅助项目审计](references/ai-assisted-project-audit.md)。
 
 ### 6. 标记 Validation Maturity
-
-为每个项目记录真实达到的最高阶段：
 
 ```text
 Concept → Prototype → Runnable Demo / POC → Offline Eval
@@ -123,76 +143,94 @@ Concept → Prototype → Runnable Demo / POC → Offline Eval
 
 简历不得越级。使用 [验证成熟度模板](templates/validation-maturity.md)。
 
-### 7. 抽象能力并做 Career Positioning Audit
+### 7. 能力抽象与职业定位
 
-将证据写入 [Capability Library](templates/capability-library.md)，保留能力原语、所有权、成熟度、已证明领域、迁移结构和边界。
+把证据写入 [Capability Library](templates/capability-library.md)，能力必须遵循：
 
-在母版前运行 [定位审计](templates/positioning-audit.md)，输出：
+```text
+Capability → Observable Behavior → Evidence
+```
 
-- 当前最强、最可证实的岗位定位；
-- 次优相邻定位；
-- 不建议强行包装的定位；
-- 核心垂直能力与横向可迁移能力；
-- 最大证据缺口及下一步证明动作。
-
-岗位定位由证据决定。用户目标是输入，不是自动升级身份的依据。
+完成 [定位审计](templates/positioning-audit.md)，输出最强定位、相邻定位、不建议定位、核心垂直能力、横向能力和最大证据缺口。
 
 ### 8. 建立 Career Evidence Base 与 Master Resume
 
-整理经历、指标、作品、能力、bullet 和面试证据。母版结构见 [Master Resume 模板](templates/master-resume-architecture.md)，母版与定制关系见 [Master vs Tailored](references/master-and-tailored-resume.md)。
+母版保存全部独立项目、指标、作品、能力、表述和面试证据。读取 [母版架构](templates/master-resume-architecture.md) 和 [母版与定制简历](references/master-and-tailored-resume.md)。
 
 ### 9. 匹配 JD / Role Pack
 
-先比较直接相似，再比较相邻问题结构和有证据的能力原语。对 JD 要求记录重要度、候选人证据、所有权、成熟度、缺口和决策，使用 [JD 矩阵](templates/jd-matrix.md)。
-
-Role Pack 只决定哪些证据更重要、如何翻译和展示，不改变 Core 的事实判断。
+先比较直接相似，再比较相邻问题结构和能力迁移。使用 [JD 矩阵](templates/jd-matrix.md)。Role Pack 只决定证据优先级和岗位语言。
 
 ### 10. 运行 Claim Defensibility Matrix
 
-为每个高可见 claim 记录：
-
-- Evidence Class / Strength；
-- Ownership Level；
-- Can Explain / Modify / Debug；
-- Real User / Production Validation；
-- Interview Risk；
-- Safe Wording。
-
-优先选择：
+记录 Evidence Class / Strength、Ownership Level、Explain/Modify/Debug、真实用户/生产验证、Interview Risk 和 Safe Wording。优先选择：
 
 > 高 JD 相关性 × 高证据强度 × 高能力所有权 × 低面试穿透风险
 
-硬边界不能被评分抵消。生产 claim 没有生产证据、独立开发 claim 低于 L4 时，必须降级或删除。使用 [Claim Defensibility Matrix](templates/claim-defensibility-matrix.md)。
+硬边界不能被评分抵消。使用 [防守矩阵](templates/claim-defensibility-matrix.md)。
 
-### 11. 生成可防守简历与面试证据
+### 11. 招聘表达与要点编译
 
-bullet 优先组合问题背景、个人动作、范围/复杂度、交付和验证，不强套公式。大型项目先分清 Employer/Client/Platform/Module/Contribution，见 [项目层级](references/project-hierarchy.md)。
+不要从原始经历直接润色。使用 [简历要点编译器](references/resume-bullet-compiler.md)：
 
-对最显眼的 3–5 个 claim 生成 [Interview Evidence Card](templates/interview-evidence-card.md)，验证解释权、替代方案、调试、失败处理和边界。如果面试 70% 时间围绕这些 claim 展开，应该对候选人有利。
+```text
+事实 → 个人动作 → 可观察行为 → 能力 → 价值 → 证据 → JD → 招聘表述
+```
 
-### 12. 最终审计与交付
+内部层可以保存风险、边界和缺失证据；正式层只输出招聘方可读字段。通过 [正式输出清理](checklists/external-output-sanitization.md) 后才能进入 Renderer。
 
-运行 [Final Resume Audit](checklists/final-resume-audit.md)。至少交付：定位结论、证据与边界、能力所有权矩阵、Claim Defensibility Matrix、新版简历、面试证据卡、待确认项和下一步证明动作。
+### 12. 审计独立项目去向
+
+压缩时每个母版项目必须：
+
+1. 独立展示；
+2. 归组但仍保留子项目名称与独立贡献；
+3. 有意不展示，并在内部定制差异记录原因。
+
+禁止跨项目拼接动作、数字或结果。项目层级见 [Project Hierarchy](references/project-hierarchy.md)。
+
+### 13. 选择信息架构与 Renderer
+
+先根据岗位、职级、内容密度、项目数量、作品集和页数选择信息架构，再选择：
+
+- [clean-professional](renderers/clean-professional/RENDERER.md)：产品、运营、业务和多数中文社招；
+- [high-density-technical](renderers/high-density-technical/RENDERER.md)：AIPM、AI、Agent、研发和技术产品。
+
+默认不显示证件照区域。复制模板为用户专属文件，不修改 Renderer 源文件。
+
+### 14. Print / PDF QA
+
+实际打开 HTML 并检查 A4、页数、空白页、标题孤立、要点拆页、链接溢出、中文字体、工具栏隐藏、最小字号和文本复制。执行 [渲染检查](checklists/rendering-qa.md)。内容过多时使用两页。
+
+### 15. 面试证据与最终交付
+
+对最显眼的 3–5 个 claim 生成 [Interview Evidence Card](templates/interview-evidence-card.md)。最后执行 [Final Resume Audit](checklists/final-resume-audit.md)。
+
+除非用户明确要求审计报告，对外只交付正式简历文件及必要使用说明；事实矩阵、风险、边界和定制差异保持内部。
+
+## 禁止项
+
+- 编造经历、职级、技能、数字、客户、上线或业务结果；
+- 把参与写成主导，把团队成果写成个人成果；
+- 把公开或估算数据写成个人系统结果；
+- 把 Demo、Offline Eval 或生产背景升级成更强结果；
+- 用 AI 生成物推导独立开发能力；
+- 直接把人格标签写成核心能力；
+- 让内部审计字段或审计报告式语言进入正式简历；
+- 因合并同类项让独立项目静默消失；
+- 跨独立项目拼接事实、动作、数字或结果；
+- 让 Renderer 修改内容逻辑、事实或 positioning；
+- 默认生成空证件照框；
+- 用极小字号强行压成一页。
 
 ## 按需读取
 
 | 场景 | 读取 |
 |---|---|
-| 深访与优势探索 | [深访方法](references/deep-interview-to-resume.md)、[深访模板](templates/deep-interview.md)、[能力原语](references/capability-primitives.md) |
-| 所有权与 AI 项目 | [能力所有权](references/capability-ownership.md)、[AI 项目审计](references/ai-assisted-project-audit.md)、[所有权矩阵](templates/capability-ownership-matrix.md) |
-| 定位与母版 | [定位审计](templates/positioning-audit.md)、[核心架构](references/core-architecture.md)、[母版模板](templates/master-resume-architecture.md) |
-| JD 与可迁移能力 | [能力迁移](references/transferable-capability-mapping.md)、[JD 规则](references/jd-keyword-matching.md)、[JD 矩阵](templates/jd-matrix.md) |
-| Claim 与验证边界 | [防守矩阵](templates/claim-defensibility-matrix.md)、[成熟度](templates/validation-maturity.md)、[事实规则](references/fact-integrity-and-evidence.md) |
-| AI 产品经理 | [AI PM Pack](packs/ai-product-manager/PACK.md) 及其按需引用 |
-| 端到端示例 | [能力链示例](examples/capability-chain-example.md) |
-| 最终交付 | [简历审计](checklists/final-resume-audit.md)、[面试证据卡](templates/interview-evidence-card.md)、[版本命名](references/resume-versioning-and-naming.md) |
-
-## 禁止项
-
-- 直接把人格标签写成核心简历能力；
-- 用 AI 生成物推导独立开发能力；
-- 用 Demo 或 Offline Eval 推导真实用户价值；
-- 用生产项目成熟度替代个人能力所有权；
-- 用高 JD 相关性掩盖弱证据或高穿透风险；
-- 编造经历、职级、技术、数字、客户、上线或业务结果；
-- 用 Role Pack 覆盖 Core 的事实和能力边界。
+| 深访与能力探索 | [深访方法](references/deep-interview-to-resume.md)、[能力原语](references/capability-primitives.md) |
+| 所有权与 AI 项目 | [能力所有权](references/capability-ownership.md)、[AI 项目审计](references/ai-assisted-project-audit.md) |
+| 定位、母版和项目保全 | [核心架构](references/core-architecture.md)、[母版与定制](references/master-and-tailored-resume.md)、[项目层级](references/project-hierarchy.md) |
+| JD 与岗位知识 | [能力迁移](references/transferable-capability-mapping.md)、[JD 规则](references/jd-keyword-matching.md)、[AIPM Pack](packs/ai-product-manager/PACK.md) |
+| 招聘表达 | [招聘表达](references/recruiter-translation.md)、[要点编译器](references/resume-bullet-compiler.md) |
+| HTML / PDF | [信息结构选择](references/resume-architecture-selector.md)、[Renderer Packs](renderers/README.md)、[渲染检查](checklists/rendering-qa.md) |
+| 最终交付 | [正式输出清理](checklists/external-output-sanitization.md)、[最终审计](checklists/final-resume-audit.md) |

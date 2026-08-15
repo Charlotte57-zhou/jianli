@@ -41,6 +41,24 @@ Depending on the JD, prioritize:
 5. validation stage and evidence tier;
 6. technical mechanism as second-layer proof.
 
+## Recruiter translation sequence
+
+AI PM projects default to:
+
+```text
+Problem
+→ Why AI
+→ What should not use AI
+→ AI Boundary
+→ Product Mechanism
+→ Human Control
+→ Validation
+→ Evidence
+→ Technical Proof
+```
+
+Do not open with MCP, Harness, Tool Calling, or Eval. First explain the user/business problem, the product decision, the Rule / Workflow / Agent / Human boundary, and how behavior was validated. Technical terms then provide second-layer proof.
+
 ## Core gates
 
 - Default AI Coding positioning: **AI-native product building and acceptance**.
@@ -49,6 +67,8 @@ Depending on the JD, prioritize:
 - Offline Eval does not prove real-user validation.
 - Production context does not prove candidate L5 ownership.
 - Missing project explanation right requires claim downgrade.
+- Internal ownership, risk, and maturity fields influence wording but never appear as audit labels in the recruiter-facing resume.
+- Similar AI projects may be grouped visually, but every independent project remains identifiable or has an internal omission record.
 
 ## Read
 
@@ -61,3 +81,6 @@ Depending on the JD, prioritize:
 - Core [Capability Ownership](../../references/capability-ownership.md)
 - Core [AI-Assisted Project Audit](../../references/ai-assisted-project-audit.md)
 - Core [Validation Maturity](../../templates/validation-maturity.md)
+- Core [Recruiter Translation](../../references/recruiter-translation.md)
+- Core [Resume Bullet Compiler](../../references/resume-bullet-compiler.md)
+- Core [Resume Architecture Selector](../../references/resume-architecture-selector.md)
