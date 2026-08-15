@@ -1,85 +1,64 @@
 # Core Architecture
 
-## The product model
+## Product model
 
-Jianli treats resume optimization as a small evidence system rather than a one-shot writing task.
+Jianli is an evidence and capability-ownership system, not a one-shot writer.
 
 ```text
-Career Evidence Base
-├── Facts
-├── Metrics
-├── Artifacts
-├── Bullet Library
-└── Capability Library
-        ↓
-Master Resume
-        ↓
-Role Profile / Role Pack
-        ↓
-JD Match
-        ↓
-Tailored Resume
-        ↓
-Interview Evidence
+Concrete episodes
+→ Deep interview / stable behavior patterns
+→ Capability primitives
+→ Fact + evidence audit
+→ Capability ownership + validation maturity
+→ Career positioning audit
+→ Career Evidence Base
+→ Master Resume
+→ Role Profile / Role Pack + JD match
+→ Claim Defensibility Matrix
+→ Tailored Resume
+→ Interview evidence validation
 ```
 
-## Why this architecture
+## Core owners
 
-The same career history can support different truthful narratives.
+Core owns:
 
-Example:
+- facts and evidence classes;
+- Employer / Client / Platform / Module / Contribution boundaries;
+- capability primitives and ownership levels;
+- AI-assisted project audit;
+- validation maturity;
+- positioning audit;
+- claim defensibility;
+- JD similarity and transferability;
+- quantification, versioning, information hierarchy, and interview evidence.
 
-One enterprise integration project may support:
-
-- a Product Manager resume through requirement and product ownership;
-- a Project Manager resume through coordination and delivery;
-- a Business Analyst resume through process and data modeling;
-- a Technical Product resume through interfaces and system constraints.
-
-The facts remain the same.
-
-The **view changes**.
-
-## Core vs Role Pack
-
-### Core owns
-
-- truth;
-- evidence classes;
-- JD matching;
-- transferable capabilities;
-- quantification;
-- information architecture;
-- versioning;
-- project hierarchy;
-- interview defensibility.
-
-### Role Pack owns
+Role Packs own:
 
 - role-specific hiring dimensions;
-- market vocabulary;
-- which evidence tends to matter most;
+- vocabulary and evidence emphasis;
 - portfolio strategy;
-- role-specific bullet patterns;
-- red flags;
-- examples.
+- role-specific writing and red flags.
 
-Role packs cannot relax core integrity rules.
+Role Packs cannot raise Evidence Class, Ownership Level, or Validation Maturity.
 
-## Master vs tailored
+## Independent axes
 
-The Master Resume is not “the one perfect resume.”
+Do not collapse:
 
-It is a structured evidence inventory.
+- fact truth into capability ownership;
+- candidate ownership into project maturity;
+- project maturity into business outcome;
+- natural tendency into work-ready capability;
+- JD relevance into claim defensibility.
 
-A tailored resume is a role-specific projection of that inventory.
+## Unit of decision
 
-## Design objective
+The primary decision unit is one important claim. For every claim ask:
 
-The system should make it easy to answer:
-
-1. What did this person actually do?
-2. What capabilities does that prove?
-3. Which of those capabilities matter here?
-4. What should be surfaced for this JD?
-5. Can every visible claim survive an interview?
+1. What happened and what is the source?
+2. What did the candidate personally own?
+3. How far was the project validated?
+4. What capability primitive does it prove?
+5. Which problem structures can it transfer to?
+6. Can the wording survive the likely interview path?

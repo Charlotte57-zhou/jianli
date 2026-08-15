@@ -69,7 +69,9 @@ Insufficient evidence.
 
 Mark “needs verification.”
 
-## 2. Verb ownership ladder
+## 2. Verb attribution scale
+
+Verb attribution describes the candidate's scope in a specific event. It is separate from the L0–L5 Capability Ownership Ladder, which describes explain/modify/reproduce/validation depth.
 
 Use verbs as evidence-sensitive labels.
 
@@ -174,3 +176,20 @@ Do not convert these into:
 - production accuracy;
 - real financial savings;
 - live system performance.
+
+## 9. Evidence, attribution, ownership, and maturity are independent
+
+For each important claim record separately:
+
+- **Evidence Class:** what source supports the fact;
+- **Verb attribution:** what scope the candidate owned in this event;
+- **Capability Ownership Level:** what the candidate can explain, modify, debug, reproduce, and validate;
+- **Validation Maturity:** how far the project or outcome was validated.
+
+Examples:
+
+- A Verified AI-generated demo can still be only L1 candidate ownership.
+- A candidate can own an L4 reproducible capability in a project that only reached Offline Eval.
+- A production platform can be real while the candidate's personal capability remains L0/L1.
+
+Never upgrade one axis from another.

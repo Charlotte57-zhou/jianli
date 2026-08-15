@@ -1,80 +1,75 @@
 # Final Resume Audit
 
-## Truth
+## Fact and hierarchy
 
-- [ ] No “led / owned / 0→1” without evidence.
-- [ ] No public industry data presented as internal system scale.
-- [ ] No estimate presented as measured outcome.
-- [ ] No adjacent-system function attributed to the wrong system.
-- [ ] No production/customer impact claimed for a personal/offline project.
-- [ ] Job title wording is accurate or explicitly approved by the candidate.
+- [ ] No led / owned / 0→1 claim exceeds the verified contribution.
+- [ ] Employer / Client / Platform / Module / Contribution are separated.
+- [ ] Public / Internal / Estimated data and inferred outcomes are separated.
+- [ ] Metric definition, denominator, source, time point and attribution are explainable.
+- [ ] No personal/offline project implies customer, production or business outcome without evidence.
+- [ ] No real name, phone, email, client secret or sensitive employer detail was introduced by the Skill.
 
-## Positioning
+## Deep interview and capability discovery
 
-- [ ] First screen clearly communicates target role.
-- [ ] Strongest differentiator appears early.
-- [ ] Early-career education advantage is visible if relevant.
-- [ ] Work experience and project experience have distinct jobs.
+- [ ] Natural tendencies are kept as internal hypotheses unless converted through observable behavior and project evidence.
+- [ ] Work-ready capabilities have concrete episodes and evidence.
+- [ ] Stable behavior claims preferably have two independent episodes and counterevidence review.
+- [ ] Capability gaps and claims that should not be packaged are explicit.
+- [ ] Generic curiosity, learning, responsibility or communication labels are not used as core bullets.
 
-## JD matching
+## Capability ownership
 
-- [ ] High-frequency keywords have evidence.
-- [ ] No unsupported ATS keyword stuffing.
-- [ ] AI/technical terms appear where they are proven.
+- [ ] Every high-intensity claim has an Ownership Level.
+- [ ] AI-assisted output is not presented as independent engineering by default.
+- [ ] Explain / Modify / Debug / Reproduce / Validate evidence supports the assigned level.
+- [ ] Production project maturity is not used as a substitute for candidate ownership.
+- [ ] L5 requires L4 ownership plus real-world validation.
 
-## Quantification
+## Validation maturity
 
-- [ ] At least some bullets show scale/complexity/delivery/quality.
-- [ ] Numbers can be explained in an interview.
-- [ ] Outcome metrics are actually measured.
+- [ ] Concept, Prototype, Demo/POC, Offline Eval, Review, Pilot, Production and Business Outcome are not collapsed.
+- [ ] Resume wording does not exceed the highest verified stage.
+- [ ] Offline Eval includes cases, labels, metric/denominator and result when claimed.
+- [ ] Real-user, pilot and production claims include scope and time point.
+- [ ] Business outcomes are measured and attributable.
 
-## AI PM readability
+## Career positioning
 
-- [ ] AI project starts with a human/business problem.
-- [ ] AI role and boundary are understandable.
-- [ ] Human control / rule layer is explicit when relevant.
-- [ ] Eval/testing evidence exists.
-- [ ] Technical jargon is second-layer proof, not the first sentence.
+- [ ] Strongest positioning is evidence-led rather than aspiration-led.
+- [ ] Adjacent positioning names the similar problem structure and new-domain gap.
+- [ ] Forced positioning is explicitly rejected or deferred.
+- [ ] Core vertical capability, horizontal primitives and largest evidence gap are visible.
+- [ ] The Career Positioning Audit was completed before the Master Resume.
 
-## Information architecture
+## JD and Role Pack
 
-- [ ] Employer and client/platform are not confused.
-- [ ] Related modules are grouped when appropriate.
-- [ ] Repeated platform names are reduced.
-- [ ] Role labels are not redundantly repeated.
+- [ ] Direct similarity appears before adjacent similarity and transferable capability.
+- [ ] JD terms are supported by equivalent evidence.
+- [ ] Role Pack guidance did not raise evidence, ownership or maturity.
+- [ ] High-visibility claims passed the Claim Defensibility Matrix.
+- [ ] High JD relevance did not override a hard claim boundary.
 
-## Links
+## Claim defensibility and interview
 
-- [ ] Every visible link helps the intended evaluation.
-- [ ] Demo links are polished.
-- [ ] GitHub is prominent only when it improves the application.
-- [ ] Hidden/on-request links remain honestly available if asked.
+- [ ] Evidence Strength, Ownership Level, explanation/debug ability, validation and risk are recorded.
+- [ ] Safe wording matches the weakest relevant boundary.
+- [ ] The top 3–5 claims are desirable interview topics.
+- [ ] The candidate can explain design, alternatives, data flow, call chain, boundaries, success, failure and Bad Cases as relevant.
+- [ ] Missing explanation right caused claim downgrade or an evidence-building action.
+- [ ] Interview Evidence Cards distinguish candidate, AI and collaborator contributions.
 
-## Visual hierarchy
+## AI Product Manager
 
-- [ ] Important top information is readable at a glance.
-- [ ] Critical credentials are not tiny/low contrast.
-- [ ] No decorative element overwhelms content.
-- [ ] Print/PDF output preserves hierarchy.
+- [ ] AI project starts with user/business problem and product decision.
+- [ ] Rule / Workflow / Agent / Human boundary is explicit where relevant.
+- [ ] Evidence, responsibility, human confirmation and failure handling are clear.
+- [ ] Eval / Bad Case evidence is separated from real-user validation.
+- [ ] AI Coding defaults to AI-native product building and acceptance unless stronger engineering ownership is proven.
 
+## Information and delivery
 
-## Tailoring
-
-- [ ] A master evidence base exists or has been preserved.
-- [ ] This version is clearly tied to a target company/role/JD when applicable.
-- [ ] Directly similar experience is foregrounded before generic capability claims.
-- [ ] Adjacent experience is explained through a truthful problem-structure bridge.
-- [ ] Transferable capabilities have concrete evidence.
-- [ ] Tailoring changed selection/order/emphasis, not historical facts.
-- [ ] The five most visible claims are desirable interview topics.
-- [ ] Recruiter-facing filename is clean (e.g. 姓名-公司-岗位-简历.pdf).
-- [ ] Internal version notes are not exposed in the external filename.
-
-
-## Role Pack / Role Profile
-
-- [ ] The correct Role Pack was loaded when available.
-- [ ] If no pack existed, the role profile was derived from actual JDs where possible.
-- [ ] Role-specific guidance did not override evidence-integrity rules.
-- [ ] Role-specific keywords are supported by candidate evidence.
-- [ ] The resume is optimized for the actual evaluation dimension of the target role.
+- [ ] Strongest defensible evidence appears early.
+- [ ] Visual hierarchy matches information priority.
+- [ ] Every visible link improves the intended evaluation dimension.
+- [ ] Tailoring changed selection/order/emphasis, not history.
+- [ ] Recruiter-facing filename is clean and internal notes stay internal.

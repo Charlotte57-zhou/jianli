@@ -1,14 +1,15 @@
 # Capability Library
 
-| Capability | Plain-language definition | Strongest evidence | Supporting evidence | Proven domains | Adjacent domains | JD keywords | Boundary | Interview story |
-|---|---|---|---|---|---|---|---|---|
-| Complex B2B workflow modeling | Turn rule-heavy business processes into workflows, states, rules and data mappings |  |  |  |  |  |  |  |
-| AI exception workflow design | Decide what rules handle vs what Agent investigates, with human control |  |  |  |  |  |  |  |
-| AI-native prototyping | Turn requirements into runnable POCs with AI coding agents |  |  |  |  |  |  |  |
+| Capability primitive | Plain-language definition | Observable behavior | Strongest evidence | Supporting episode | Ownership level | Validation maturity | Proven domains | Transferable problem structures | Role Pack mapping | Boundary | Interview story |
+|---|---|---|---|---|---:|---|---|---|---|---|---|
+| | | | | | L0–L5 | | | | | | |
 
 ## Rules
 
-- Every capability must have evidence.
-- Avoid generic adjectives.
+- Start from concrete episodes; do not select attractive primitive names first.
+- Separate natural tendencies from work-ready capabilities.
+- Every capability must have evidence, ownership level, maturity and boundary.
+- Prefer two independent episodes before calling a behavior stable.
 - Record what the capability does **not** prove.
-- Use this library to generate tailored resumes; do not invent new capability labels per JD without evidence.
+- Role Pack mapping changes relevance and wording, not ownership.
+- Generate tailored resumes from this library; do not invent capabilities per JD.

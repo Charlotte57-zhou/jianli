@@ -1,17 +1,13 @@
-# JD Keyword Matrix
+# JD Evidence Matrix
 
-| Keyword / phrase | Frequency | Importance | Candidate evidence | Placement | Decision |
-|---|---:|---|---|---|---|
-| AI Agent | High | Core | personal Agent project | first screen + project | Use |
-| POC / Demo | High | Core | runnable demo | core advantage | Use |
-| RAG | High | Common | none | — | Do not use |
-| B2B | High | Core | enterprise product work | first screen | Use |
-| Eval | Medium | Differentiator | offline eval set | AI project | Use |
+| JD requirement / keyword | Importance | Similarity | Candidate evidence | Capability primitive | Ownership level | Validation maturity | Gap | Placement | Decision |
+|---|---|---|---|---|---:|---|---|---|---|
+| | Core/High/Medium/Low | Direct/Adjacent/Transferable/Generic | | | L0–L5 | | | | Use / Downgrade / Omit / Build evidence |
 
-## Decision labels
+## Decision rules
 
-- Use
-- Use carefully
-- Skills only
-- Do not use
-- Needs verification
+1. Direct similarity before adjacent similarity.
+2. Adjacent problem structure before generic traits.
+3. A keyword is usable only when equivalent evidence exists.
+4. High relevance does not override weak ownership or high interview risk.
+5. Send high-visibility claims to the Claim Defensibility Matrix before writing.

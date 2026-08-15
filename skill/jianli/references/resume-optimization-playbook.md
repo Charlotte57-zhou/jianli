@@ -113,6 +113,10 @@ For an early-career AI PM, a strong sequence can be:
 
 Do not maximize “impressive sounding.”
 
-Optimize:
+Optimize claim selection in this order:
 
-> Expected interview probability × claim defensibility × role relevance.
+> role relevance × evidence strength × capability ownership × interview defensibility
+
+Do not treat the formula as arithmetic. Hard boundaries remain blocking: weak ownership cannot be offset by high JD relevance, and offline evidence cannot be scored into production value.
+
+Before the Master Resume, run the Career Positioning Audit. Before final wording, run the Claim Defensibility Matrix.

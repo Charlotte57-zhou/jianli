@@ -10,6 +10,7 @@ Use a two-layer system:
    - complete, evidence-backed, reusable;
    - stores all defensible projects, bullets, metrics, tools, domains, and links;
    - optimized for truth and coverage, not for sending.
+   - created only after capability ownership, validation maturity, and positioning audit.
 
 2. **Tailored Resume**
    - created for a specific company + role + JD;
@@ -123,5 +124,6 @@ For each target JD, produce:
 2. Tailoring delta note — what changed vs master and why.
 3. JD evidence matrix.
 4. Interview evidence cards for the top 3–5 claims.
+5. Claim Defensibility Matrix for high-visibility claims.
 
 The delta note is internal and should not be sent to recruiters.

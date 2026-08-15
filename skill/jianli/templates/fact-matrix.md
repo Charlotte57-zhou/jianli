@@ -1,19 +1,20 @@
 # Fact Matrix
 
-| Claim | Evidence class | Source | Safe wording | Risk / note |
-|---|---|---|---|---|
-| Example: monthly 3M invoice relationships | Verified | internal report / user-confirmed | “月均约 300 万笔” | scale metric, not outcome |
-| Example: 120B annual platform amount | External/public | public report | context only or omit | do not attribute to module |
-| Example: saved 60M paper sheets | Estimated | arithmetic | omit | not measured |
-| Example: paperless module 0→1 | User-confirmed | candidate confirmation | “主导无纸化能力从 0→1” | scope is module, not whole platform |
+| Claim | Evidence class | Source | Candidate contribution | AI / other contribution | Ownership level | Validation maturity | Safe wording | Risk / next proof |
+|---|---|---|---|---|---:|---|---|---|
+| Example: monthly business volume | Verified | internal report | defined module workflow | none | L2 | Production | “模块月均覆盖约 …” | scale, not outcome |
+| Example: public platform amount | External/Public | public report | no ownership | none | L0 | Production context | context only or omit | do not attribute to module |
+| Example: AI-built runnable demo | Verified | repo + run result | requirements, review, acceptance | AI generated implementation | L1–L3 per audit | Runnable Demo | “借助 AI Coding 完成并验收可运行 Demo” | not full-stack or production |
 
 ## Required checks
 
-- [ ] Ownership verb verified
+- [ ] Ownership verb and candidate scope verified
+- [ ] Employer / Client / Platform / Module / Contribution separated
 - [ ] 0→1 boundary verified
-- [ ] Number source verified
-- [ ] Public vs internal separated
-- [ ] Estimate vs measurement separated
-- [ ] System boundary verified
-- [ ] Production status verified
-- [ ] Job title wording confirmed
+- [ ] Number definition, denominator, source, time point and attribution recorded
+- [ ] Public / Internal / Estimated separated
+- [ ] Actual / inferred outcome separated
+- [ ] AI and collaborator contributions recorded
+- [ ] Ownership Level supported by explanation/modification/reproduction evidence
+- [ ] Validation Maturity supported by project evidence
+- [ ] Production status and job title wording verified

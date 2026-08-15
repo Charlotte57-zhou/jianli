@@ -2,136 +2,69 @@
 
 ## Goal
 
-Abstract prior experience into reusable capabilities **without turning the candidate into a vague generalist**.
+Build a clear vertical specialty plus evidence-backed horizontal capabilities without turning the candidate into a vague generalist.
 
-The target is not “万金油.”
+## Six-layer mapping
 
-The target is:
+For each strong experience, preserve all layers:
 
-> **A clear core specialty + evidence-backed transferable capabilities.**
-
-Think T-shaped:
-
-- vertical: the candidate's strongest domain / product depth;
-- horizontal: capabilities that can move across domains.
-
-## The abstraction ladder
-
-For each strong experience, write four layers.
-
-### Layer 1 — Concrete experience
-
-What actually happened?
+1. **Concrete episode** — what happened, where, and under what constraints;
+2. **Observable behavior** — what the candidate repeatedly did;
+3. **Capability primitive** — the reusable work behavior;
+4. **Ownership and maturity** — how deeply the candidate owns it and how far it was validated;
+5. **Transferable problem structure** — what is structurally similar elsewhere;
+6. **Target-domain bridge** — why it matters to the target JD and what remains new.
 
 Example:
 
-> Designed settlement rules and cross-system mappings for electricity finance workflows.
-
-### Layer 2 — Problem structure
-
-What kind of problem was it?
-
-> High-rule-density B2B workflow with multiple source systems, financial controls, exception paths, and audit requirements.
-
-### Layer 3 — Transferable capability
-
-What repeatable capability did the candidate demonstrate?
-
-> Can decompose complex enterprise workflows into product rules, data mappings, state transitions, and exception-handling mechanisms.
-
-### Layer 4 — Target-domain bridge
-
-Why does this matter to the target JD?
-
-> This transfers well to enterprise finance, reconciliation, compliance, operations, and Agent-based exception workflows where correctness and traceability matter.
-
-Do not skip directly from Layer 1 to a generic adjective.
-
-Bad:
-
-> Therefore, strong learning ability.
-
-Better:
-
-> Therefore, can quickly model rule-heavy enterprise workflows and define cross-system exception ownership.
-
-## Capability library fields
-
-For each capability, store:
-
-- capability name;
-- plain-language definition;
-- strongest evidence;
-- supporting evidence;
-- domains already proven;
-- adjacent domains;
-- JD keywords it can support;
-- boundary / what it does not prove;
-- interview story.
-
-## High-value transferable capability categories
-
-### Product problem framing
-
-- problem definition;
-- scope reduction;
-- identifying non-goals;
-- product boundary decisions.
-
-### Complex B2B modeling
-
-- workflow;
-- state;
-- rules;
-- permissions;
-- master data;
-- cross-system dependencies;
-- auditability.
-
-### Delivery
-
-- PRD/prototype;
-- interface/data mapping;
-- engineering/testing collaboration;
-- on-site rollout;
-- issue closure.
-
-### AI product judgment
-
-- rule vs model;
-- Agent role;
-- human-in-the-loop;
-- tool/action boundaries;
-- evaluation;
-- failure handling.
-
-### AI-native execution
-
-- turning requirements into tasks;
-- building runnable demos/POCs with AI coding agents;
-- testing and verification.
+```text
+Cross-system exception episode
+→ compared states, sources, owners, and closure conditions
+→ anomaly_inconsistency_detection + closure_validation
+→ L3 Modify/Debug; Offline Eval
+→ high-risk, rule-dense, auditable exception workflow
+→ relevant to enterprise AI investigation; real-user validation remains a gap
+```
 
 ## Similarity before abstraction
 
-When a direct match exists, do not hide it behind abstraction.
+When direct evidence exists, show it first. A capability primitive is a bridge, not a replacement for concrete experience.
 
-Bad:
+Priority remains:
 
-> Strong ability to solve complex problems.
+> Direct similarity > Adjacent similarity > Transferable capability > Generic traits
 
-Better:
+## Stable behavior gate
 
-> Built an enterprise exception-handling Agent; transferable to your finance-operations Agent role because both require cross-system evidence collection, responsibility judgment, human confirmation, and re-validation.
+Do not infer a primitive from one attractive anecdote when the positioning depends on it. Prefer:
 
-The abstraction layer is a bridge, not a replacement for concrete experience.
+- two independent episodes;
+- one counterexample or failure review;
+- observable artifacts or outcomes;
+- explicit candidate / AI / collaborator contribution;
+- ownership and maturity assessment.
 
-## “Can generalize” must remain falsifiable
+## Falsifiability questions
 
-A transferable capability should answer:
+Every transfer claim must answer:
 
-- What did you do before?
-- What structure is similar here?
+- What did the candidate do before?
+- Which observable behavior repeated?
+- What evidence proves it?
+- What is the Ownership Level?
+- What is the Validation Maturity?
+- What problem structure is similar?
 - What part transfers?
 - What part is new and still needs learning?
 
-This creates credible confidence instead of pretending to have done every domain.
+## Role Pack mapping
+
+Role Packs may map the same primitive to different hiring dimensions, artifacts, and wording. They cannot:
+
+- convert a personality label into a capability;
+- increase ownership;
+- upgrade validation maturity;
+- erase the new-domain gap;
+- outrank direct similarity with generic abstraction.
+
+Use [capability-primitives.md](capability-primitives.md) and [capability-library.md](../templates/capability-library.md).

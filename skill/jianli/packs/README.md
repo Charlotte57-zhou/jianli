@@ -12,6 +12,10 @@ The Core decides:
 
 - what is true;
 - what is evidenced;
+- what the candidate personally owns;
+- how far the project was validated;
+- which capability primitives are proven;
+- which claims are defensible;
 - how to quantify;
 - how to tailor;
 - how to preserve the master resume.
@@ -35,7 +39,7 @@ Core integrity rules
 Role Pack defaults
 ```
 
-A Role Pack never authorizes fabrication.
+A Role Pack never authorizes fabrication or upgrades Evidence Class, Ownership Level, Validation Maturity, or project explanation right.
 
 ## Add your own
 

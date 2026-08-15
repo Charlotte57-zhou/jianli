@@ -18,11 +18,16 @@ A pack may specify:
 - portfolio expectations;
 - common resume mistakes;
 - interview follow-up risks.
+- capability-primitive relevance;
+- expected ownership and maturity for strong role claims;
+- role-specific explanation-right questions.
 
 A pack must not:
 
 - invent candidate facts;
 - override evidence classes;
+- raise capability ownership or validation maturity;
+- convert personality labels into work-ready capabilities;
 - force unsupported keywords;
 - force every candidate into the same layout;
 - claim market universality without actual JD research.
@@ -66,3 +71,6 @@ A useful pack should answer:
 - Which metrics are credible?
 - Which links/portfolio artifacts matter?
 - What claims are commonly overused or misleading?
+- Which capability primitives matter and what evidence proves them?
+- What ownership and validation maturity does a strong claim require?
+- What should a candidate be able to explain under interview pressure?

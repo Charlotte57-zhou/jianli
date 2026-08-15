@@ -1,99 +1,55 @@
 # AI Product Manager — Evaluation Dimensions
 
-## 1. Problem framing
+## 1. Problem and product judgment
 
-Evidence:
+Evidence: user/job, consequence, scope, non-goals, why AI is or is not appropriate, and alternatives considered.
 
-- clear user/problem definition;
-- scope decisions;
-- non-goals;
-- why AI is appropriate.
+Weak substitute: following AI trends or listing features.
 
-Weak substitute:
+## 2. Complex workflow decomposition
 
-- “followed AI trends.”
+Evidence: actors, states, rules, exceptions, responsibilities, cross-system facts, and closure conditions.
 
-## 2. AI boundary judgment
+Weak substitute: claiming “complex logic” without a model or artifact.
 
-Evidence:
+## 3. Rule / Workflow / Agent / Human boundary
 
-- rule vs model;
-- retrieval vs generation;
-- automation vs human confirmation;
-- read-only vs write actions;
-- deterministic path vs Agent investigation.
+Evidence: deterministic path, Agent uncertainty, tool/action permissions, human confirmation, and failure containment.
 
-Weak substitute:
+Weak substitute: adding “Agent” to a fixed workflow.
 
-- adding “Agent” to a normal workflow.
+## 4. Evidence and responsibility reasoning
 
-## 3. 0→1 product ability
+Evidence: data sources, ownership, missing evidence behavior, audit trail, and accountable decision points.
 
-Evidence:
+Weak substitute: a polished answer without source or owner.
 
-- problem definition;
-- product flow;
-- prototype / POC / Demo;
-- acceptance criteria;
-- iteration;
-- test/eval.
+## 5. Capability ownership and explanation right
 
-Weak substitute:
+Evidence: Explain → Modify → Debug → Reproduce → Validate, with candidate/AI/collaborator contributions separated.
 
-- only writing a PRD.
+Weak substitute: runnable AI-generated output.
 
-## 4. Technical collaboration
+## 6. Evaluation and Bad Case design
 
-Evidence:
+Evidence: decision-linked cases, labels, denominator, metrics, failure taxonomy, regression, and what the result cannot prove.
 
-- APIs;
-- data flow;
-- tools;
-- permissions;
-- prompt/tool contracts;
-- model constraints;
-- engineering tradeoffs.
+Weak substitute: “accuracy is high” or a demo that worked once.
 
-Weak substitute:
+## 7. Validation maturity
 
-- long technology lists.
+Evidence: explicit Concept/Prototype/Demo/Eval/Review/Pilot/Production/Outcome stage and supporting scope.
 
-## 5. Evaluation / reliability
+Weak substitute: treating Offline Eval as customer value.
 
-Evidence:
+## 8. AI-native execution
 
-- eval set;
-- labels;
-- quality gates;
-- bad cases;
-- failure states;
-- regression tests;
-- business/model metrics.
+Evidence: requirements → tasks → artifact → review → correction → acceptance, with ownership level.
 
-Weak substitute:
+Weak substitute: a list of AI coding tools.
 
-- “the model works well.”
+## 9. Domain and transfer fit
 
-## 6. AI-native execution
+Evidence: direct similarity first, then adjacent problem structure and proven capability primitives, with new-domain gaps stated.
 
-Evidence:
-
-- Codex / Claude Code / other coding agents used to turn product requirements into runnable demos;
-- requirement → task → implementation → testing workflow;
-- ability to inspect and validate AI-generated work.
-
-Weak substitute:
-
-- “proficient in ChatGPT.”
-
-## 7. Domain fit
-
-Evidence:
-
-- direct vertical experience;
-- adjacent workflow similarity;
-- transferable problem structure.
-
-Weak substitute:
-
-- generic “fast learner.”
+Weak substitute: generic learning or communication ability.

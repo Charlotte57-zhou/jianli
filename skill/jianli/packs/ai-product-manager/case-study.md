@@ -224,6 +224,18 @@ A project group heading can communicate depth and reduce visual noise.
 
 ## Final distilled principles
 
+### v2.1 ownership and maturity re-audit
+
+The project story must now be rechecked on three independent axes:
+
+1. **Evidence Class** — which artifacts or confirmations support each fact;
+2. **Capability Ownership** — what the candidate can explain, modify, debug, reproduce, and validate;
+3. **Validation Maturity** — whether the work reached Concept, Prototype, Demo/POC, Offline Eval, structured review, Pilot, Production, or measured outcome.
+
+An AI-assisted runnable project supports **AI-native product building and acceptance** when the candidate can show requirement decomposition, review, correction, debugging, and validation. It supports independent engineering wording only when the stronger implementation ownership is separately proven.
+
+Before keeping a headline claim, run the Claim Defensibility Matrix. If design rationale, alternatives, core flow, Agent boundary, success metric, failure handling, call chain, or Bad Cases cannot be explained, downgrade the wording and build project explanation right first.
+
 1. Start with evidence, not wording.
 2. Position strongly, claim conservatively.
 3. Use metrics that can survive interview cross-examination.

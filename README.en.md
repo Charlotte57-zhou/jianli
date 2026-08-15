@@ -1,34 +1,52 @@
-# Jianli · Evidence-Backed Resume Skill
+# Jianli v2.1.0 · Evidence and Capability Ownership for Resumes
 
-> **Verify first. Write second.** Let AI add clarity, not imaginary achievements.
+> **Verify facts. Establish ownership. Then write.**
 
-`jianli` is an open-source Agent Skill built for evidence-backed resume optimization:
+`jianli` is an open-source Agent Skill for turning concrete career episodes into defensible positioning, tailored resumes, and interview evidence.
 
 ```text
-Raw experience → Fact matrix → Career evidence base → Master resume
-               → JD matching → Tailored resume → Interview evidence cards
+Concrete episodes
+→ Deep interview and stable behavior patterns
+→ Work-ready capability primitives
+→ Evidence
+→ Capability Ownership Level
+→ Transferable problem structure
+→ Target JD / Role Pack
+→ Defensible resume claim
+→ Interview evidence validation
 ```
 
-It helps candidates strengthen positioning without changing facts, ownership, metrics, titles, technologies, or production status.
+## New in v2.1.0
 
-## What it produces
+- Deep Interview & Capability Discovery mode;
+- L0–L5 Capability Ownership Ladder;
+- AI-assisted project audit: Explain → Modify → Debug → Reproduce → Validate;
+- Claim Defensibility Matrix;
+- cross-industry Capability Primitive Library;
+- Career Positioning Audit before the Master Resume;
+- eight-stage Validation Maturity model;
+- upgraded AI Product Manager Role Pack.
 
-- fact and ownership audit;
-- reusable career evidence base;
-- master resume as the source of truth;
-- company- and JD-specific versions;
-- credible quantification beyond invented ROI;
-- interview evidence cards for high-visibility claims.
+## Core boundaries
 
-The first bundled Role Pack covers AI Product Manager roles.
+- Strengthen positioning. Never strengthen facts.
+- One evidence base, many truthful tailored resumes.
+- Direct similarity before adjacent similarity and transferable capability.
+- Separate Employer / Client / Platform / Module / Contribution.
+- Separate Public / Internal / Estimated data.
+- Role Packs cannot raise evidence, ownership, or validation maturity.
+
+AI-generated output does not automatically prove independent engineering. A Demo does not prove production value, and Offline Eval does not prove real-user validation.
 
 ## Install
 
 Copy `skill/jianli/` to your Agent Skills directory and keep the folder name `jianli`. In Codex, invoke it with `$jianli`.
 
-## Core rule
+Run repository validation with:
 
-> **Strengthen positioning. Never strengthen facts.**
+```bash
+python scripts/check_skill.py
+```
 
 See [README.md](README.md) for the full Chinese guide.
 

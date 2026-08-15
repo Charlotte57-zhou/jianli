@@ -1,45 +1,32 @@
 # AI Product Manager — Portfolio and Links
 
-## Product demo
+## Artifact selection rule
 
-Often high value for AI PM roles because it shows:
+Show an artifact when it strengthens the intended claim and makes ownership, product judgment, or validation easier to inspect.
 
-- product definition;
-- UX;
-- workflow;
-- AI behavior;
-- product judgment.
-
-Show when polished.
+| Artifact | What it can prove | Common overclaim |
+|---|---|---|
+| Concept note | problem and product hypothesis | runnable product |
+| Prototype | interaction and flow | reliable behavior |
+| Runnable Demo / POC | core path execution | real-user value |
+| Eval artifact | declared test behavior | production outcome |
+| User/expert review | structured feedback and iteration | pilot adoption |
+| Pilot evidence | bounded real use | production scale |
+| Production evidence | live supported workflow | attributable business outcome |
+| Outcome report | measured result in a defined scope | universal causality |
 
 ## GitHub
 
-Role-dependent.
+Prominent GitHub helps when repository quality and technical ownership improve the target evaluation. Keep it second-layer when product judgment is primary or when AI-generated code could distract from the proven ownership level.
 
-Prominent GitHub can help when:
+Never hide the repository merely because the candidate cannot defend it. Instead, fix explanation right or reduce the claim.
 
-- technical depth is central to the JD;
-- repository structure/docs/tests are strong;
-- the candidate wants engineering-level inspection.
+## Recommended evidence bundle
 
-Keep it as second-layer / interview evidence when:
-
-- product thinking is the main selling point;
-- the repo is a learning artifact;
-- code inspection may dominate evaluation before product context is understood.
-
-Never deny the repository exists if asked.
-
-## Eval artifacts
-
-Very useful when readable:
-
-- eval matrix;
-- test dashboard;
-- failure cases;
-- before/after behavior;
-- product decision notes.
-
-## Portfolio strategy
+- one recruiter-readable product summary;
+- one runnable or visual artifact;
+- one ownership/debugging example;
+- one Eval or acceptance artifact;
+- one maturity statement explaining what is and is not validated.
 
 The first visible artifact should reinforce the role the candidate wants to be evaluated for.

@@ -1,63 +1,47 @@
 # AI Product Manager — Writing Guide
 
+## Evidence-first sequence
+
+Write in this order:
+
+> User/business problem → Product judgment → Why use or not use AI → Personal decision → Rule/Workflow/Agent/Human boundary → Artifact → Validation maturity → Limitation
+
 ## Two-layer communication
 
 ### Layer 1 — Recruiter-readable
 
-Answer:
-
-- Who has the problem?
-- What is the problem?
-- What does AI do?
-- What remains rule-based or human-controlled?
-- What did the candidate deliver?
-- How was it validated?
+Answer who has the problem, why it matters, what the product changes, what the candidate owned, and how far it was validated.
 
 ### Layer 2 — Technical proof
 
-Then add:
+Add only supported mechanisms such as Agent, tools, MCP, state, permissions, structured outputs, Eval, Bad Cases, and failure handling.
 
-- Agent;
-- Tool Calling;
-- MCP;
-- Human-in-the-loop;
-- Eval;
-- SDK;
-- architecture;
-- failure handling.
+## Claim pattern
 
-## Example
+```text
+For [user/problem], the candidate [owned action/decision] to build [artifact/mechanism],
+separating [Rule/Workflow/Agent/Human boundary],
+validated at [actual maturity stage], with [known limitation].
+```
 
-Weak:
+## AI-assisted project wording
 
-> Built an Agent Harness with MCP and Eval.
+Preferred when supported:
 
-Better:
+> 借助 AI Coding 将需求转化为可运行产品，能够解释核心链路、修改关键行为、定位故障并通过测试或 Eval 验收。
 
-> Designed an AI exception-handling workflow for finance users who previously had to investigate issues across several systems. Stable cases remain rule-based; the Agent gathers cross-system evidence and produces reviewable correction suggestions for ambiguous exceptions, with human confirmation before high-risk actions.
+Do not write “independent full-stack development” unless L4+ engineering ownership is proven.
 
-Technical proof:
+## High-trust / high-risk workflows
 
-> Implemented tool-based investigation, Human-in-the-loop controls, structured outputs and offline Eval / Bad Case regression.
+Surface:
 
-## Product judgment matters more than jargon
-
-A strong AI PM bullet demonstrates decisions such as:
-
-- why not use the model for every case;
-- why a human confirms a write action;
-- what counts as success;
-- what happens when evidence is incomplete;
-- how failure is surfaced.
+- evidence source and missing-evidence behavior;
+- responsibility owner;
+- human confirmation before consequential action;
+- failure state and recheck;
+- what the Agent recommends versus executes.
 
 ## Personal AI projects
 
-A personal project is valid evidence when it has:
-
-- real problem definition;
-- runnable product or prototype;
-- meaningful architecture;
-- evaluation/testing;
-- clear boundaries.
-
-Do not imply production use, customers, revenue, or accuracy that does not exist.
+Personal projects are valid at their real maturity level. Name Concept, Prototype, Demo/POC, Offline Eval, Expert Review, Pilot, Production, or Measured Outcome precisely. Never imply the next stage.
